@@ -45,7 +45,7 @@ if __name__ == '__main__':
     Showday = Button(new, text='Show Day', font=("consolas", 20, "bold"), fg='Black', bg='#7D5074', height=3, width=20,command=findDay)
     Showcal = Button(new, text='Show Calender', font=("consolas", 20, "bold"), fg='Black', bg='#7D5074', height=3,width=20, command=showCalender)
     Exit = Button(new, text='Exit', fg='Black', font=("consolas", 20, "bold"), bg='#7D5074', height=3, width=20,command=new.destroy)
-      
+    
     # putting widgets in position
     cali.grid(row=1, column=1)
     year.grid(row=10, column=8)
